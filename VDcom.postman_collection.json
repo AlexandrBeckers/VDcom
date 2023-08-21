@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "516f3f9e-8f39-4b00-a8f4-ee176a4e2d57",
+		"name": "VDcom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24869091"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Краснов Александр Юрьевич\",\n  \"position\": \"Manual QA\",\n  \"url\": \"https://samara.hh.ru/resume/b92b018cff0c1b5d2f0039ed1f333168575067\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://script.google.com/macros/s/AKfycbz0DIQvScmnowrDs_dIB9Nmg6rBpY4ZFGH6Je384yz5uueDusn4NmDUesrNOnkiSu0MyA/exec",
+					"protocol": "https",
+					"host": [
+						"script",
+						"google",
+						"com"
+					],
+					"path": [
+						"macros",
+						"s",
+						"AKfycbz0DIQvScmnowrDs_dIB9Nmg6rBpY4ZFGH6Je384yz5uueDusn4NmDUesrNOnkiSu0MyA",
+						"exec"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
